@@ -1,0 +1,49 @@
+.hero-container{
+    background-image: url('../../images/herosection.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-p {
+    margin-right: 60px;
+    margin-bottom: 100px;
+}
+
+.hero-p > p {
+    font-family:  'Lato';
+    background: #EE75FF;
+    background: -webkit-linear-gradient(to bottom left, #EE75FF 26%, #5B5AD2 100%);
+    background: -moz-linear-gradient(to bottom left, #EE75FF 26%, #5B5AD2 100%);
+    background: linear-gradient(to bottom left, #EE75FF 26%, #5B5AD2 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 3rem;
+    word-spacing: 0.2rem;
+    font-size: 2.5rem;  
+}
+
+@media screen and (max-width: 960px) {
+    .hero-container {
+        background-color: #252525;
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container > h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .hero-container > p {
+        font-size: 30px;
+        text-align: center;
+    }
+}
