@@ -1,0 +1,158 @@
+.principal-project{
+    background-color: #252525;
+    color: #B76BE9;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+.principal-project > h1 {
+    font-family: "Lato";
+    font-size: 45px;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg, #fff 0%, #936FED 29%, #B76BE9 67%, #EE75FF 100% );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;
+      
+}
+
+.principal-project > h3 {
+    font-family: "Lato";
+    font-size: 35px;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg, #fff 0%, #936FED 29%, #B76BE9 67%, #EE75FF 100% );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;  
+}
+
+.projeto-container{
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+.container {
+    width: 50%;
+    height: fit-content;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    justify-items: stretch;
+    align-items: stretch;
+ }
+
+ .container > div:nth-child(1){
+     background-image: url('../../images/div1.png');
+     background-size: cover;
+     background-position: center;
+     width: 200px;
+     height: 200px;
+     -webkit-box-shadow: 5px 10px 1px 2px #BFBFBF; 
+     box-shadow: 5px 10px 1px 2px #BFBFBF;
+ }
+ 
+
+ .container > div:nth-child(2){
+    background-image: url('../../images/Rectangle\ 125.png');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    -webkit-box-shadow: 5px 10px 1px 2px #BFBFBF; 
+    box-shadow: 5px 10px 1px 2px #BFBFBF;
+}
+
+.container > div:nth-child(3){
+    background-image: url('../../images/Rectangle\ 127.png');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    -webkit-box-shadow: 5px 10px 1px 2px #BFBFBF; 
+    box-shadow: 5px 10px 1px 2px #BFBFBF;
+}
+
+.container > div:nth-child(4){
+    background-image: url('../../images/Rectangle\ 131.png');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    -webkit-box-shadow: 5px 10px 1px 2px #BFBFBF; 
+    box-shadow: 5px 10px 1px 2px #BFBFBF;
+}
+
+.container > div:nth-child(5){
+    background-image: url('../../images/Rectangle\ 132.png');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    -webkit-box-shadow: 5px 10px 1px 2px #BFBFBF; 
+    box-shadow: 5px 10px 1px 2px #BFBFBF;
+}
+
+.container > div:nth-child(6){
+    background-image: url('../../images/Rectangle\ 133.png');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    -webkit-box-shadow: 5px 10px 1px 2px #BFBFBF; 
+    box-shadow: 5px 10px 1px 2px #BFBFBF;
+}
+
+.project-btn{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    background: #F8DF00;
+    padding: 10px 40px 10px 40px;
+    color: #5B5AD2;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 0px 3px #B5B5B5; 
+    box-shadow: 0px 0px 0px 3px #B5B5B5;
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.project-btn:hover,
+.project-btn:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+ .project-svg > img {
+    width: 50%;
+ }

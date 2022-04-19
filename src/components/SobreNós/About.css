@@ -1,0 +1,81 @@
+.about-container{
+    background-color: #5352CC;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container p{
+    color: #5352CC;
+}
+
+.about-container > h1{
+    color: #EE75FF;
+    font-family: "Lato";
+    font-size: 42px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.about-container > h3{
+    color: #FFB3FD;
+    font-family: "Lato";
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+
+.zindex-grid {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 50px; 
+}
+
+ .zindex-grid > div {
+     margin: 30px;
+     width: 100%;
+    }
+
+ .quadrado1{
+    background-color: aliceblue;
+    padding: 15px;
+    -webkit-box-shadow: -16px 16px 1px 0px #AAAACA; 
+    box-shadow: -16px 16px 1px 0px #AAAACA;
+    border-top: 25px solid #936FED;
+ }
+
+
+ .quadrado4{
+    background-color: aliceblue;
+    padding: 15px;
+    -webkit-box-shadow: -16px 16px 1px 0px #AAAACA; 
+    box-shadow: -16px 16px 1px 0px #AAAACA;
+    border-top: 25px solid #936FED;    
+}
+
+.quadrado5{
+    background-color: aliceblue;
+    padding: 15px;
+    -webkit-box-shadow: -16px 16px 1px 0px #AAAACA; 
+    box-shadow: -16px 16px 1px 0px #AAAACA;
+    border-top: 25px solid #936FED;
+}
+
+.h1-about{
+    background: #EE75FF;
+    background: -webkit-linear-gradient(to bottom left, #EE75FF 26%, #5B5AD2 100%);
+    background: -moz-linear-gradient(to bottom left, #EE75FF 26%, #5B5AD2 100%);
+    background: linear-gradient(to bottom left, #EE75FF 26%, #5B5AD2 100%);
+    background-clip: text;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
