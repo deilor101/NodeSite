@@ -1,0 +1,54 @@
+.box {
+    border: 1px solid #AA85FF;
+
+}
+
+.window .window-head{
+    background-color: #3637B3;
+    height: 3rem;
+    border: 1px sold #AA85FF;
+    padding: 2%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.window .window-head-balls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+}
+
+.window .window-head .red-ball{
+    background-color: #F31414;
+    border-radius: 50px;
+    max-height: 18px;
+    height: 100%;
+    max-width: 18px;
+    width: 100%;
+}
+.window .window-head .yellow-ball{
+    background-color: #F8DF00;
+    border-radius: 50px;
+    max-height: 18px;
+    height: 100%;
+    max-width: 18px;
+    width: 100%;
+}
+.window .window-head .green-ball{
+    background-color: #61FA04;
+    border-radius: 50px;
+    max-height: 18px;
+    height: 100%;
+    max-width: 18px;
+    width: 100%;
+}
+
+.window .window-content {
+    background-color: #FFEAFF;
+    height: 10rem;
+    padding: 4%;
+    color: #19137A;
+}

@@ -1,0 +1,15 @@
+.teste-tab{
+    background-color: #FFEAFF;
+    border: 2px solid #9E77FF;
+    box-shadow: 3px 3px #FFEAFF,5px 5px  #9E77FF;
+    color: #AAAACA;
+
+}
+.nav-item a{
+    color: #AAAACA;
+}
+
+.nav.nav-pills .nav-link.active {
+    background-color: #4547E5;
+    border-radius: 0;
+}
